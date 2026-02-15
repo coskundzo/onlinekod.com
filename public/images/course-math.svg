@@ -1,0 +1,46 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Math Theme - Blue -->
+  <circle cx="75" cy="75" r="75" fill="#2196F3"/>
+  <circle cx="75" cy="68" r="35" fill="#ffe0b3"/>
+  
+  <!-- Hair -->
+  <ellipse cx="75" cy="48" rx="38" ry="26" fill="#654321"/>
+  
+  <!-- Eyes (Focused/Thinking) -->
+  <circle cx="64" cy="66" r="4" fill="#000"/>
+  <circle cx="86" cy="66" r="4" fill="#000"/>
+  <circle cx="66" cy="64" r="2" fill="#fff"/>
+  <circle cx="88" cy="64" r="2" fill="#fff"/>
+  
+  <!-- Thinking Expression -->
+  <path d="M 62 78 Q 75 82 88 78" stroke="#000" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <rect x="40" y="100" width="70" height="50" fill="#03A9F4" rx="8"/>
+  
+  <!-- Math Symbols on Notebook -->
+  <rect x="45" y="108" width="35" height="35" fill="#fff" rx="2"/>
+  <text x="50" y="123" font-size="14" fill="#2196F3" font-weight="bold">π</text>
+  <text x="63" y="123" font-size="12" fill="#FF5722">+</text>
+  <text x="50" y="136" font-size="14" fill="#4CAF50" font-weight="bold">∑</text>
+  <text x="64" y="136" font-size="12" fill="#9C27B0">=</text>
+  
+  <!-- Calculator -->
+  <rect x="85" y="108" width="20" height="28" fill="#37474F" rx="2"/>
+  <rect x="87" y="110" width="16" height="8" fill="#00E676" rx="1"/>
+  <circle cx="91" cy="122" r="2" fill="#fff"/>
+  <circle cx="97" cy="122" r="2" fill="#fff"/>
+  <circle cx="103" cy="122" r="2" fill="#fff"/>
+  <circle cx="91" cy="128" r="2" fill="#fff"/>
+  <circle cx="97" cy="128" r="2" fill="#fff"/>
+  <circle cx="103" cy="128" r="2" fill="#fff"/>
+  <circle cx="91" cy="134" r="2" fill="#fff"/>
+  <circle cx="97" cy="134" r="2" fill="#fff"/>
+  <circle cx="103" cy="134" r="2" fill="#fff"/>
+  
+  <!-- Thinking Cloud -->
+  <circle cx="110" cy="55" r="8" fill="#fff" opacity="0.9"/>
+  <circle cx="118" cy="50" r="10" fill="#fff" opacity="0.9"/>
+  <circle cx="125" cy="55" r="7" fill="#fff" opacity="0.9"/>
+  <text x="112" y="57" font-size="12" fill="#000">?</text>
+</svg>

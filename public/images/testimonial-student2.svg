@@ -1,0 +1,25 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Young Student Boy 2 -->
+  <circle cx="60" cy="60" r="60" fill="#4facfe"/>
+  <circle cx="60" cy="55" r="28" fill="#f4c7a0"/>
+  
+  <!-- Hair (Curly) -->
+  <path d="M 30 40 Q 30 28 42 28 Q 50 23 58 28 Q 60 25 62 28 Q 70 23 78 28 Q 90 28 90 40" fill="#1a1a1a"/>
+  <ellipse cx="60" cy="35" rx="32" ry="18" fill="#1a1a1a"/>
+  
+  <!-- Eyes -->
+  <circle cx="52" cy="53" r="3" fill="#000"/>
+  <circle cx="68" cy="53" r="3" fill="#000"/>
+  <circle cx="54" cy="51" r="1.5" fill="#fff"/>
+  <circle cx="70" cy="51" r="1.5" fill="#fff"/>
+  
+  <!-- Big Smile -->
+  <path d="M 46 62 Q 60 74 74 62" stroke="#000" stroke-width="1.5" fill="none"/>
+  
+  <!-- Body -->
+  <rect x="32" y="80" width="56" height="40" fill="#00f2fe" rx="8"/>
+  
+  <!-- Badge/Sticker -->
+  <circle cx="50" cy="95" r="6" fill="#FFD700"/>
+  <text x="47" y="98" font-size="8" fill="#000">⭐</text>
+</svg>

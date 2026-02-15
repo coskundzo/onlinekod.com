@@ -1,0 +1,29 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Parent Woman 2 -->
+  <circle cx="60" cy="60" r="60" fill="#fbc2eb"/>
+  <circle cx="60" cy="58" r="28" fill="#ffe0b3"/>
+  
+  <!-- Hair (Short Bob) -->
+  <ellipse cx="60" cy="40" rx="32" ry="26" fill="#654321"/>
+  <ellipse cx="38" cy="52" rx="10" ry="18" fill="#654321"/>
+  <ellipse cx="82" cy="52" rx="10" ry="18" fill="#654321"/>
+  
+  <!-- Glasses -->
+  <rect x="46" y="52" width="11" height="9" fill="none" stroke="#000" stroke-width="1.5" rx="2"/>
+  <rect x="63" y="52" width="11" height="9" fill="none" stroke="#000" stroke-width="1.5" rx="2"/>
+  <line x1="57" y1="56.5" x2="63" y2="56.5" stroke="#000" stroke-width="1.5"/>
+  
+  <!-- Eyes -->
+  <circle cx="51.5" cy="56.5" r="2.5" fill="#000"/>
+  <circle cx="68.5" cy="56.5" r="2.5" fill="#000"/>
+  
+  <!-- Smile -->
+  <path d="M 48 66 Q 60 72 72 66" stroke="#ff6b9d" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <rect x="32" y="82" width="56" height="38" fill="#9966cc" rx="8"/>
+  
+  <!-- Earrings -->
+  <circle cx="38" cy="58" r="3" fill="#FFD700"/>
+  <circle cx="82" cy="58" r="3" fill="#FFD700"/>
+</svg>

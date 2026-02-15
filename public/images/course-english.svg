@@ -1,0 +1,43 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- English Theme - Red/Blue -->
+  <circle cx="75" cy="75" r="75" fill="#012169"/>
+  
+  <!-- UK Flag elements -->
+  <rect x="0" y="70" width="150" height="10" fill="#fff"/>
+  <rect x="70" y="0" width="10" height="150" fill="#fff"/>
+  <rect x="0" y="72.5" width="150" height="5" fill="#C8102E"/>
+  <rect x="72.5" y="0" width="5" height="150" fill="#C8102E"/>
+  
+  <!-- Face -->
+  <circle cx="75" cy="68" r="32" fill="#ffd9b3"/>
+  
+  <!-- Hair -->
+  <ellipse cx="75" cy="48" rx="34" ry="24" fill="#d4a574"/>
+  
+  <!-- Eyes -->
+  <circle cx="66" cy="66" r="4" fill="#000"/>
+  <circle cx="84" cy="66" r="4" fill="#000"/>
+  <circle cx="68" cy="64" r="2" fill="#fff"/>
+  <circle cx="86" cy="64" r="2" fill="#fff"/>
+  
+  <!-- Smile -->
+  <path d="M 62 76 Q 75 85 88 76" stroke="#000" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <rect x="43" y="96" width="64" height="54" fill="#E31837" rx="8"/>
+  
+  <!-- Book -->
+  <rect x="48" y="105" width="28" height="35" fill="#fff" rx="2"/>
+  <line x1="62" y1="105" x2="62" y2="140" stroke="#E31837" stroke-width="2"/>
+  <text x="52" y="118" font-size="10" fill="#012169" font-weight="bold">ABC</text>
+  <text x="52" y="130" font-size="8" fill="#666">Hello</text>
+  
+  <!-- Speech Bubble -->
+  <ellipse cx="95" cy="115" rx="18" ry="12" fill="#fff"/>
+  <polygon points="85,120 80,125 85,122" fill="#fff"/>
+  <text x="85" y="119" font-size="10" fill="#012169" font-weight="bold">Hi!</text>
+  
+  <!-- Stars -->
+  <text x="20" y="30" font-size="14" fill="#FFD700">⭐</text>
+  <text x="120" y="35" font-size="14" fill="#FFD700">⭐</text>
+</svg>

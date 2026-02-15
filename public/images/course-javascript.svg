@@ -1,0 +1,37 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- JavaScript Theme - Yellow -->
+  <circle cx="75" cy="75" r="75" fill="#F7DF1E"/>
+  <circle cx="75" cy="68" r="35" fill="#f4d9b3"/>
+  
+  <!-- Hair (Cool developer style) -->
+  <path d="M 40 50 Q 40 35 55 35 Q 65 30 75 33 Q 85 30 95 35 Q 110 35 110 50 Z" fill="#3e2723"/>
+  
+  <!-- Eyes -->
+  <circle cx="64" cy="66" r="4" fill="#000"/>
+  <circle cx="86" cy="66" r="4" fill="#000"/>
+  <circle cx="66" cy="64" r="2" fill="#fff"/>
+  <circle cx="88" cy="64" r="2" fill="#fff"/>
+  
+  <!-- Smile -->
+  <path d="M 60 78 Q 75 88 90 78" stroke="#000" stroke-width="2" fill="none"/>
+  
+  <!-- Laptop with Code -->
+  <rect x="35" y="100" width="80" height="50" fill="#2C3E50" rx="6"/>
+  <rect x="40" y="105" width="70" height="38" fill="#1E1E1E" rx="3"/>
+  
+  <!-- Code on screen -->
+  <text x="45" y="118" font-family="monospace" font-size="8" fill="#61DAFB">const</text>
+  <text x="68" y="118" font-family="monospace" font-size="8" fill="#FFEB3B">code</text>
+  <text x="88" y="118" font-family="monospace" font-size="8" fill="#fff">=</text>
+  <text x="45" y="128" font-family="monospace" font-size="8" fill="#CE9178">'fun'</text>
+  <text x="65" y="128" font-family="monospace" font-size="8" fill="#fff">;</text>
+  
+  <!-- JS Logo -->
+  <rect x="45" y="132" width="16" height="16" fill="#F7DF1E" rx="2"/>
+  <text x="48" y="144" font-family="monospace" font-size="12" fill="#000" font-weight="bold">JS</text>
+  
+  <!-- Coffee Cup -->
+  <rect x="95" y="110" width="15" height="18" fill="#8D6E63" rx="2"/>
+  <ellipse cx="102.5" cy="109" rx="7.5" ry="2" fill="#6D4C41"/>
+  <path d="M 110 115 Q 116 115 116 120 Q 116 123 110 123" stroke="#8D6E63" stroke-width="2" fill="none"/>
+</svg>

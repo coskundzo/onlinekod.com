@@ -1,0 +1,42 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="#f093fb"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="90" r="45" fill="#ffcba4"/>
+  
+  <!-- Hair (Girl with ponytails) -->
+  <ellipse cx="100" cy="60" rx="48" ry="38" fill="#8b4513"/>
+  <circle cx="65" cy="75" r="12" fill="#8b4513"/>
+  <circle cx="135" cy="75" r="12" fill="#8b4513"/>
+  
+  <!-- Headphones -->
+  <path d="M 60 70 Q 60 50 80 50" stroke="#ff6b9d" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M 140 70 Q 140 50 120 50" stroke="#ff6b9d" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="60" cy="75" r="8" fill="#ff6b9d"/>
+  <circle cx="140" cy="75" r="8" fill="#ff6b9d"/>
+  
+  <!-- Eyes (happy/excited) -->
+  <circle cx="88" cy="88" r="5" fill="#2c2c2c"/>
+  <circle cx="112" cy="88" r="5" fill="#2c2c2c"/>
+  <circle cx="90" cy="86" r="2" fill="white"/>
+  <circle cx="114" cy="86" r="2" fill="white"/>
+  
+  <!-- Happy Smile -->
+  <path d="M 82 102 Q 100 115 118 102" stroke="#2c2c2c" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Body/Shirt -->
+  <rect x="55" y="130" width="90" height="70" fill="#a18cd1" rx="10"/>
+  
+  <!-- Tablet/Device -->
+  <rect x="70" y="145" width="60" height="50" fill="#2c3e50" rx="5"/>
+  <rect x="73" y="148" width="54" height="40" fill="#3498db" rx="2"/>
+  
+  <!-- Scratch Blocks on Screen -->
+  <rect x="78" y="153" width="20" height="8" fill="#ff6680" rx="2"/>
+  <rect x="78" y="163" width="25" height="8" fill="#ffab19" rx="2"/>
+  <rect x="78" y="173" width="18" height="8" fill="#0fbd8c" rx="2"/>
+  
+  <!-- Stars decoration -->
+  <text x="110" y="165" font-size="18" fill="#ffd93d">⭐</text>
+</svg>

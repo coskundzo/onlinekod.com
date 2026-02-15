@@ -1,0 +1,46 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="#4facfe"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="90" r="45" fill="#f4c7a0"/>
+  
+  <!-- Hair (Curly) -->
+  <path d="M 52 65 Q 52 40 75 40 Q 85 35 95 40 Q 100 35 105 40 Q 115 35 125 40 Q 148 40 148 65" fill="#1a1a1a"/>
+  <ellipse cx="100" cy="55" rx="50" ry="30" fill="#1a1a1a"/>
+  
+  <!-- Eyes (Focused) -->
+  <circle cx="88" cy="87" r="5" fill="#2c2c2c"/>
+  <circle cx="112" cy="87" r="5" fill="#2c2c2c"/>
+  <circle cx="90" cy="85" r="2" fill="white"/>
+  <circle cx="114" cy="85" r="2" fill="white"/>
+  
+  <!-- Concentrated Expression -->
+  <line x1="85" y1="100" x2="115" y2="100" stroke="#2c2c2c" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Body/Shirt -->
+  <rect x="55" y="130" width="90" height="70" fill="#00f2fe" rx="10"/>
+  
+  <!-- Keyboard/Gaming -->
+  <rect x="60" y="150" width="80" height="40" fill="#34495e" rx="4"/>
+  
+  <!-- Keys -->
+  <rect x="65" y="155" width="12" height="10" fill="#667eea" rx="2"/>
+  <rect x="80" y="155" width="12" height="10" fill="#667eea" rx="2"/>
+  <rect x="95" y="155" width="12" height="10" fill="#667eea" rx="2"/>
+  <rect x="110" y="155" width="12" height="10" fill="#667eea" rx="2"/>
+  <rect x="125" y="155" width="12" height="10" fill="#667eea" rx="2"/>
+  
+  <rect x="65" y="168" width="12" height="10" fill="#52c1c9" rx="2"/>
+  <rect x="80" y="168" width="12" height="10" fill="#52c1c9" rx="2"/>
+  <rect x="95" y="168" width="12" height="10" fill="#52c1c9" rx="2"/>
+  <rect x="110" y="168" width="12" height="10" fill="#52c1c9" rx="2"/>
+  <rect x="125" y="168" width="12" height="10" fill="#52c1c9" rx="2"/>
+  
+  <!-- Space bar -->
+  <rect x="75" y="182" width="50" height="6" fill="#95a5a6" rx="2"/>
+  
+  <!-- Cap -->
+  <ellipse cx="100" cy="58" rx="35" ry="12" fill="#e74c3c"/>
+  <rect x="95" y="52" width="10" height="4" fill="#e74c3c"/>
+</svg>
