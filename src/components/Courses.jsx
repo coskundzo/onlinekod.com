@@ -61,15 +61,23 @@ const Courses = () => {
     }
   ];
 
-  const handleCourseClick = (courseTitle) => {
-    const messages = [
-      `🎉 ${courseTitle} kursu harika bir seçim!`,
-      `Harika! ${courseTitle} ile muhteşem projeler yapabilirsiniz! 🚀`,
-      `${courseTitle} ile çok eğleneceksiniz! ✨`,
-      `Muhteşem! ${courseTitle} sizi bekliyor! 🌟`
-    ];
-    const randomMessage = messages[Math.floor(Math.random() * messages.length)];
-    alert(`${randomMessage}\n\nDaha fazla bilgi için iletişim bölümünden bize ulaşın! 📧`);
+  const handleGetInfo = (courseTitle) => {
+    // Scroll to contact form
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      
+      // Optional: Show a message about which course they're interested in
+      setTimeout(() => {
+        const messages = [
+          `🎉 ${courseTitle} kursu hakkında bilgi almak için formu doldurun!`,
+          `✨ ${courseTitle} için kaydolmak ister misiniz? Formu doldurun!`,
+          `🚀 ${courseTitle} ile ilgileniyorsunuz! Formu doldurun, size ulaşalım!`
+        ];
+        const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+        alert(randomMessage);
+      }, 800);
+    }
   };
 
   return (
@@ -95,9 +103,9 @@ const Courses = () => {
             <p className="course-description">{course.description}</p>
             <button 
               className="course-button"
-              onClick={() => handleCourseClick(course.title)}
+              onClick={() => handleGetInfo(course.title)}
             >
-              Detaylar
+              Bilgi Al
             </button>
           </div>
         ))}
