@@ -1,0 +1,13 @@
+# OnlineKod - Proje Bağımlılıkları
+# Bu proje Node.js ve npm kullanmaktadır
+
+# Node.js Proje Bağımlılıkları (package.json'dan)
+react@^18.2.0
+react-dom@^18.2.0
+
+# Geliştirme Bağımlılıkları
+@vitejs/plugin-react@^4.2.1
+vite@^5.0.0
+
+# Kurulum için:
+# npm install
