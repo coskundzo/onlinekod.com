@@ -61,7 +61,7 @@ const Header = ({ activeSection, setActiveSection }) => {
           handleNavClick('home');
         }}>
           <img src="/images/logo.png" alt="OnlineKod logo" className="logo-img" />
-          <span className="logo-text">OnlineKod</span>
+          <span className="logo-text"></span>
         </a>
         
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
