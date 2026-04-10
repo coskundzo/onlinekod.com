@@ -91,16 +91,25 @@ const Header = ({ activeSection, setActiveSection }) => {
           </li>
           {navItems.map((item) => (
             <li key={item.id}>
-              <a
-                href={`#${item.id}`}
-                className={`nav-link ${activeSection === item.id ? 'active' : ''}`}
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleNavClick(item.id);
-                }}
-              >
-                {item.label}
-              </a>
+              {item.id === 'contact' ? (
+                <a
+                  href="#contact"
+                  className={`nav-link ${activeSection === item.id ? 'active' : ''}`}
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <a
+                  href={`#${item.id}`}
+                  className={`nav-link ${activeSection === item.id ? 'active' : ''}`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleNavClick(item.id);
+                  }}
+                >
+                  {item.label}
+                </a>
+              )}
             </li>
           ))}
         </ul>

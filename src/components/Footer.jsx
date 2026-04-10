@@ -51,7 +51,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footer-section">
+        <div className="footer-section" id="contact">
           <h3>İletişim Bilgileri</h3>
           <ul className="footer-links">
             <li><span>📞</span> +90 (507) 668 43 99</li>

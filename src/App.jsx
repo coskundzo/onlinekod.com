@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Courses from './components/Courses';
@@ -9,6 +9,19 @@ import Footer from './components/Footer';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
+
+  // Sayfa yüklendiğinde URL'deki hash'e scroll yap
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      setTimeout(() => {
+        const element = document.querySelector(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  }, []);
 
   return (
     <div className="App">
