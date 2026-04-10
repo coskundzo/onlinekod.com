@@ -63,8 +63,32 @@ const Header = ({ activeSection, setActiveSection }) => {
           <img src="/images/logo.png" alt="OnlineKod logo" className="logo-img" />
           <span className="logo-text"></span>
         </a>
-        
+
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
+          {/* Bursluluk Sınavı düğmesi - BAŞA ALINDI */}
+          <li>
+            <a
+              href="https://onlinekod-sinav-app.onrender.com/"
+              className="nav-link bursluluk-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                background: 'linear-gradient(90deg, #ff512f 0%, #dd2476 100%)',
+                color: '#fff',
+                borderRadius: '8px',
+                padding: '10px 20px',
+                marginRight: '16px',
+                fontWeight: 'bold',
+                fontSize: '1.05rem',
+                letterSpacing: '0.5px',
+                boxShadow: '0 4px 16px rgba(221,36,118,0.18)',
+                border: '2px solid #fff',
+                textShadow: '0 2px 8px rgba(0,0,0,0.10)'
+              }}
+            >
+              🎉 Bursluluk Sınavı
+            </a>
+          </li>
           {navItems.map((item) => (
             <li key={item.id}>
               <a
@@ -80,7 +104,7 @@ const Header = ({ activeSection, setActiveSection }) => {
             </li>
           ))}
         </ul>
-        
+
         <div className="hamburger" onClick={toggleMenu}>
           <span className="bar"></span>
           <span className="bar"></span>
